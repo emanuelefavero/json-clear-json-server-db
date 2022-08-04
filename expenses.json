@@ -1,8 +1,18 @@
 {
-    "expenses": [
-        {
-            "id": 1,
-            "amount": "20"
-        }
+  "expenses": [
+    {
+      "id": 1,
+      "amount": "20"
+    },
+    [
+      {
+        "id": 1,
+        "amount": "20"
+      },
+      {
+        "id": 2,
+        "amount": "30"
+      }
     ]
+  ]
 }
