@@ -1,0 +1,20 @@
+{
+  "name": "json-server-two-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "startAxios": "node index.js",
+    "startDB1": "json-server --watch expenses.json --port 3004",
+    "startDB2": "json-server --watch mergedExpenses.json --port 3005",
+    "dev": " concurrently \"npm run startDB1\" \"npm run startDB2\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^7.3.0",
+    "json-server": "^0.17.0"
+  },
+  "description": ""
+}
